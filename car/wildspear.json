@@ -1,0 +1,8 @@
+{
+	"car": "Wild.json",
+	"handling": 1,
+	"maxspeed": 150,
+	"acceleration": 0.15,
+	"brake": 1,
+	"tire": 0.1
+}

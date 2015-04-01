@@ -1,0 +1,8 @@
+{
+	"car": "SimpleCar4.json",
+	"handling": 3,
+	"maxspeed": 80,
+	"acceleration": 0.7,
+	"brake": 3,
+	"tire": 0.1
+}

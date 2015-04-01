@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OVERCART</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('#play').click(function() {
+        localStorage.setItem("car", $('#car').val());
+        window.location.href = "game.html";
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>OVERCART</h1>
+  <h2>オーバーカート</h2>
+  <select id="car">
+    <option value="yuuki">ゆうきの未来カー</option>
+    <option value="lite">軽快カーは軽快か。</option>
+    <option value="wildspear">ワイルドスピア</option>
+  </select>
+  <button id="play">プレイ</button>
+</body>
+</html> 

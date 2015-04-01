@@ -1,0 +1,8 @@
+{
+	"car": "nazo6.json",
+	"handling": 2,
+	"maxspeed": 100,
+	"acceleration": 0.5,
+	"brake": 2,
+	"tire": 0.1
+}
